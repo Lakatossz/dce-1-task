@@ -1,6 +1,6 @@
-[submodule "external/dce-1-backend"]
-	path = external/dce-1-backend
-	url = https://github.com/Lakatossz/dce-1-backend
-[submodule "external/dce-1-load-balancer"]
-	path = external/dce-1-load-balancer
+[submodule "external/external/dce-1-load-balancer"]
+	path = external/external/dce-1-load-balancer
 	url = https://github.com/Lakatossz/dce-1-load-balancer
+[submodule "external/external/dce-1-backend"]
+	path = external/external/dce-1-backend
+	url = https://github.com/Lakatossz/dce-1-backend

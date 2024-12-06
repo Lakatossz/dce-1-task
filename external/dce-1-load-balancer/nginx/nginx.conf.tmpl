@@ -1,10 +1,10 @@
 events {}
 http {
     upstream backends {
-                server 147.228.173.181:5000;
-                server 147.228.173.114:5000;
-                server 147.228.173.182:5000;
-            }
+        %{ for ip in backend_nodes ~}
+        server ${ip}:5000;
+        %{ endfor ~}
+    }
 
     server {
         listen 80;

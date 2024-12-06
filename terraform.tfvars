@@ -1,10 +1,10 @@
 # OpenNebula authentication and endpoint configuration
 
 # Username for logging into OpenNebula. Replace with your OpenNebula username.
-one_username = "username"
+one_username = "rosa"
 
 # Token or password for authenticating with OpenNebula. 
-one_password = "login_token"
+one_password = "98d1755cd5c9df3d8b703de05c76142b33c6b17ac463689288768fc533dfe23d"
 
 # URL for the OpenNebula RPC2 API. Update to match the endpoint of your OpenNebula instance.
 one_endpoint = "https://nuada.zcu.cz/RPC2"
